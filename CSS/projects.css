@@ -1,0 +1,137 @@
+
+  
+  
+  .projectContainer{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .project {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+    padding: 2rem;
+    width: 38rem;
+    height: 42rem;
+    transition: background-color 0.7s ease, transform 0.3s ease;
+  }
+
+  .project:hover{
+    transform: translateY(-3px);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  .project img{
+    width: 3rem;
+    height: 3rem;
+  }
+  .project .title{
+ /* Specify your desired font family */
+  font-size: 2rem; /* Adjust the font size as per your preference */
+  font-weight:bold ; /* Make the font bold, if desired */
+  color: #000000; /* Set the color of the font */
+  text-align: center; /* Align the text in the center, or adjust as needed */
+  text-transform: uppercase; /* Convert the text to uppercase, if desired */
+  margin-bottom: 1.5rem;
+
+  }
+
+  .project p {
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  
+  
+  .project a {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .project img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .project img:hover {
+    opacity: 0.8;
+  }
+  
+  .project .languages {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  
+  .project .languages span {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Added 'transform' property */
+  }
+
+  .languages span:hover{
+    background: rgb(228, 50, 50);
+    color: white;
+    cursor: pointer;
+    transform: translateY(-3px); /* Added upward movement */
+    }
+
+  .project .link{
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    
+   
+  
+    .projectContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project {
+      width: 100%;
+      height: auto;
+      margin: 1rem 0;
+    }
+  
+    .project .title {
+      font-size: 20px;
+      margin-bottom: 1rem;
+    }
+   
+  
+    .project img {
+      width: 2rem;
+      height: 2rem;
+    }
+  
+    .project .languages span  {
+      font-size: 18px;
+      
+
+    }
+    
+
+    .project .paragraph{
+      font-size: 18px;
+
+    }
+    
+     
+    
+  }
+  
+  
+  
+  

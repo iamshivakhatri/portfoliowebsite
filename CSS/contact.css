@@ -1,0 +1,80 @@
+
+  
+  .bigContainer {
+    max-width: 120rem;
+    margin: 0 auto;
+  
+  }
+  
+  .formmContainer {
+    margin: 2rem auto 0 auto;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 75rem;
+  
+  }
+  
+  .formContent {
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  
+  .contactLabel {
+    display: block;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .contactInput {
+    width: 95%;
+    padding: 15px;
+    border-radius: 3px;
+    color: #333;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    border: 1px solid #ebebeb;
+    background: #f0f0f0;
+  
+  }
+  
+
+  .formButton {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: #475781;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formButton:hover {
+    background: rgb(228, 50, 50);
+    color: white;
+  }
+  
+  
+  .buttonDiv {
+    text-align: right;
+  }
+
+  @media screen and (max-width: 480px) {
+    .formmContainer {
+      padding: 30px;
+    }
+  
+    .contactLabel,
+    .contactInput,
+    .formButton {
+      font-size: 18px;
+    }
+  
+    .buttonDiv {
+      text-align: center;
+    }
+  }
+  

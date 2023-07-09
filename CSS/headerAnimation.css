@@ -1,0 +1,20 @@
+
+  
+  .header {
+    position: fixed;
+    top: 0;
+      z-index: 1000;
+      height: 70px;
+    width: 100%; 
+      background: transparent;
+      padding: 10px;
+      -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+    margin-bottom: 50px;
+  }
+  
+  .active {
+    background-color:#475781;
+  }

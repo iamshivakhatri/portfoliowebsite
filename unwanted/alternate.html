@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Shiva-Khatri| Software Developer</title>
+  <link rel="stylesheet" href="starstyle.css" /> 
+  <link rel="stylesheet" href="colorstyle.css" />
+  <link rel="stylesheet" href="headerAnimation.css" />
+
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: hsl(328, 14%, 18%);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    nav .left {
+      font-size: 1.5rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: transparent;
+
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style-type: none;
+      margin: 0 50px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      color: rgb(164, 164, 247);
+    }
+
+    .bgSection {
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-around;
+      height: 900px;
+      background-color: transparent;
+    }
+
+
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      margin: 50px 0;
+    }
+
+    .firstSection>div {
+      width: 35%;
+    }
+
+    .leftSection {
+
+      font-size: 3rem;
+    }
+
+    .leftSection .buttons .resume {
+      background: #34272e;
+      border-radius: 2px;
+      width: 100px;
+      font-size: 20px;
+      color: white;
+      cursor: pointer;
+      border: 2px solid white;
+      padding: 10px 10px;
+
+    }
+
+    .leftSection .buttons .resume:hover {
+      background: white;
+      border-radius: 2px;
+      width: 100px;
+      font-size: 20px;
+      color: black;
+      cursor: pointer;
+      border: 2px solid white;
+      padding: 10px 10px;
+
+    }
+
+
+
+
+    .rightSection img {
+      width: 80%;
+      margin: 50px 0;
+    }
+
+    .black {
+      color: #ff0000;
+    }
+
+    #element {
+      color: #ff0000;
+    }
+
+    main hr {
+      border: 0;
+      height: 1.2px;
+      background-color: white;
+      margin: 40px 0;
+    }
+
+    .secondSection {
+      max-width: 90vw;
+      margin: auto
+    }
+
+    .secondSection .box {
+      background-color: white;
+      width: 80vw;
+      height: 2px;
+      margin: 50px auto;
+      display: flex;
+    }
+
+    .secondSection .box .vertical {
+      height: 90px;
+      width: 1px;
+      background: white;
+      margin: 0 90px;
+
+    }
+
+
+    .image-top {
+      width: 50px;
+      position: relative;
+      top: -40px;
+      left: 0px;
+    }
+
+    .vertical-title {
+      position: relative;
+      top: 33px;
+      width: 150px;
+      justify-content: space-evenly;
+
+
+    }
+
+    .vertical-desc {
+      position: relative;
+      top: 50px;
+      color: yellow;
+      font-size: 10px;
+      width: 150px;
+
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: black;
+      height: 200px;
+      margin-top: 300px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <header>
+
+    <nav class="header">
+
+      <div class="left">
+        I am shiva
+      </div>
+
+      <div class="right">
+        <ul>
+          <li> <a href="#"> About me </a> </li>
+          <li> <a href="#"> Resume </a> </li>
+          <li> <a href="#"> Skills </a> </li>
+          <li> <a href="#"> Projects </a> </li>
+          <li> <a href="#"> Contact </a> </li>
+        </ul>
+      </div>
+
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section class="bgSection" id="mydiv">
+      <div>
+        HERE it will be picture. <br>
+        <div class="resume"> Resume</div>
+
+        <div class="bg-animation">
+          <div id="stars"></div>
+          <div id="stars2"></div>
+          <div id="stars3"></div>
+          <div id="stars4"></div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, I am <span class="black">shiva</span>
+        <div>
+          and I am
+          <span id="element"> </span>
+          <div class="buttons">
+
+            <button class="resume">Resume</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="rightSection">
+
+        <img src="developer.png" alt="This is developer image">
+      </div>
+    </section>
+
+    <section class="secondSection">
+      <hr>
+      <h1>Work Experience</h1>
+
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="developer.png" alt="">
+          <div class="vertical-title">
+            Sainik Awasiya Mahavidhyalaya
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Expedita optio sequi earum.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="developer.png" alt="">
+          <div class="vertical-title">
+            Sainik Awasiya Mahavidhyalaya
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Expedita optio sequi earum.
+          </div>
+
+
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="developer.png" alt="">
+          <div class="vertical-title">
+            Sainik Awasiya Mahavidhyalaya
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Expedita optio sequi earum.
+          </div>
+
+
+
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="developer.png" alt="">
+          <div class="vertical-title">
+            Sainik Awasiya Mahavidhyalaya
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Expedita optio sequi earum.
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+  </main>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="header.js">  </script>
+  <script src="jquery3.7.js ">  </script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>CS student.', '&amp; Web developer.', '&amp; Computer Programmer.'],
+      typeSpeed: 50,
+    });
+
+    
+
+    $(function () {
+      $(window).on("scroll", function () {
+        if ($(window).scrollTop() > 500) {
+          $(".header").addClass("active");
+        } else {
+          //remove the background property so it comes transparent again (defined in your css)
+          $(".header").removeClass("active");
+        }
+      });
+    });
+
+
+
+
+
+  </script>
+
+  <footer>
+
+  </footer>
+</body>
+
+</html>
