@@ -58,6 +58,8 @@
   
   .project img:hover {
     opacity: 0.8;
+    width: 30px;
+    height: 30px;
   }
   
   .project .languages {
@@ -112,9 +114,12 @@
    
   
     .project img {
-      width: 2rem;
-      height: 2rem;
+      width: 4em;
+      height: 4rem;
     }
+
+
+
   
     .project .languages span  {
       font-size: 18px;
