@@ -54,12 +54,12 @@
   .project img {
     width: 24px;
     height: 24px;
+    transition: width 0.3s, height 0.3s, opacity 0.3s;
   }
   
   .project img:hover {
     opacity: 0.8;
-    width: 30px;
-    height: 30px;
+    transform: scale(1.25);
   }
   
   .project .languages {
